@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "orbital_railgun-gametest",
+  "version": "1.0.0",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-client-gametest": ["io.github.mishkis.orbital_railgun.gametest.OrbitalRailgunClientTest"]
+  }
+}

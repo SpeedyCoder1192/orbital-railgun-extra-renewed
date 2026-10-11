@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "orbital_railgun",
+  "version": "${version}",
+  "name": "Orbital Railgun: Extra Renewed",
+  "description": "Destroy your enemies with an orbital strike! Unofficial Fabric port of Orbital Railgun by Mishkis, based on Rayness' Orbital Railgun: Renewed.",
+  "authors": ["Mishkis"],
+  "contributors": ["Rayness", "SpeedyCoder1192"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/orbital-railgun-extra-renewed",
+    "sources": "https://github.com/SpeedyCoder1192/orbital-railgun-extra-renewed",
+    "issues": "https://github.com/SpeedyCoder1192/orbital-railgun-extra-renewed/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/orbital_railgun/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.mishkis.orbital_railgun.OrbitalRailgun"],
+    "client": ["io.github.mishkis.orbital_railgun.client.OrbitalRailgunClient"]
+  },
+  "mixins": [
+    {
+      "config": "orbital_railgun.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3 <26.4",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

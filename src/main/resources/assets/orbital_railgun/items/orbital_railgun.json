@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "orbital_railgun:item/orbital_railgun"
+	}
+}
